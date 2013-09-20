@@ -14,7 +14,11 @@ then
         [ -s planet.us.osm.pbf ] && mv planet.us.osm.pbf planet-1.us.osm.pbf
         mv planet-updated.us.osm.pbf planet.us.osm.pbf
         OSM_CONFIG_FILE=osmconf.ini ogr2ogr -s_srs "EPSG:3857" -t_srs "EPSG:4326" -overwrite -where 'amenity="fire_station"' fire_stations.shp planet.us.osm.pbf points
+        OSM_CONFIG_FILE=osmconf.ini ogr2ogr -f "GeoJSON" -s_srs "EPSG:3857" -t_srs "EPSG:4326" -overwrite -where 'amenity="fire_station"' fire_stations.geojson planet.us.osm.pbf points
         OSM_CONFIG_FILE=osmconf.ini ogr2ogr -s_srs "EPSG:3857" -t_srs "EPSG:4326" -overwrite -where 'amenity="hospital"' hospitals.shp planet.us.osm.pbf points
+        OSM_CONFIG_FILE=osmconf.ini ogr2ogr -f "GeoJSON" -s_srs "EPSG:3857" -t_srs "EPSG:4326" -overwrite -where 'amenity="hospital"' hospitals.geojson planet.us.osm.pbf points
+	git commit -a -m "Update Data"
+	git push origin master
     else
         echo "There was a problem with the processing"
     fi
