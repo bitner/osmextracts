@@ -1,69 +1,69 @@
-Mon Sep 23 05:00:01 CDT 2013
+Tue Sep 24 05:00:01 CDT 2013
 osmupdate Parameter: planet.us.osm.pbf
 osmupdate Parameter: planet-updated.us.osm.pbf
 osmupdate Parameter: -B=united_states.poly
-osmupdate: timestamp of planet.us.osm.pbf: 2013-09-22T09:00:00Z
-osmupdate: newest hourly timestamp: 2013-09-23T09:00:00Z
-osmupdate: newest daily timestamp: 2013-09-23T00:00:00Z
-osmupdate: hourly changefile 9026: downloading
-osmupdate: hourly changefile 9025: 2013-09-23T08:00:00Z
-osmupdate: hourly changefile 9025: downloading
-osmupdate: hourly changefile 9024: 2013-09-23T07:00:00Z
-osmupdate: hourly changefile 9024: downloading
-osmupdate: hourly changefile 9023: 2013-09-23T06:00:00Z
-osmupdate: hourly changefile 9023: downloading
-osmupdate: hourly changefile 9022: 2013-09-23T05:00:00Z
-osmupdate: hourly changefile 9022: downloading
-osmupdate: hourly changefile 9021: 2013-09-23T04:00:00Z
-osmupdate: hourly changefile 9021: downloading
-osmupdate: hourly changefile 9020: 2013-09-23T03:00:00Z
-osmupdate: hourly changefile 9020: downloading
+osmupdate: timestamp of planet.us.osm.pbf: 2013-09-23T09:00:00Z
+osmupdate: newest hourly timestamp: 2013-09-24T09:00:00Z
+osmupdate: newest daily timestamp: 2013-09-24T00:00:00Z
+osmupdate: hourly changefile 9050: downloading
+osmupdate: hourly changefile 9049: 2013-09-24T08:00:00Z
+osmupdate: hourly changefile 9049: downloading
+osmupdate: hourly changefile 9048: 2013-09-24T07:00:00Z
+osmupdate: hourly changefile 9048: downloading
+osmupdate: hourly changefile 9047: 2013-09-24T06:00:00Z
+osmupdate: hourly changefile 9047: downloading
+osmupdate: hourly changefile 9046: 2013-09-24T05:00:00Z
+osmupdate: hourly changefile 9046: downloading
+osmupdate: hourly changefile 9045: 2013-09-24T04:00:00Z
+osmupdate: hourly changefile 9045: downloading
+osmupdate: hourly changefile 9044: 2013-09-24T03:00:00Z
+osmupdate: hourly changefile 9044: downloading
 osmupdate: Merging changefiles.
-osmupdate: hourly changefile 9019: 2013-09-23T02:00:00Z
-osmupdate: hourly changefile 9019: downloading
-osmupdate: hourly changefile 9018: 2013-09-23T01:00:00Z
-osmupdate: hourly changefile 9018: downloading
-osmupdate: hourly changefile 9017: 2013-09-23T00:00:00Z
-osmupdate: hourly changefile 9017: downloading
-osmupdate: hourly changefile 9016: 2013-09-22T23:00:00Z
-osmupdate: hourly changefile 9016: downloading
-osmupdate: hourly changefile 9015: 2013-09-22T22:00:00Z
-osmupdate: hourly changefile 9015: downloading
-osmupdate: hourly changefile 9014: 2013-09-22T21:00:00Z
-osmupdate: hourly changefile 9014: downloading
-osmupdate: hourly changefile 9013: 2013-09-22T20:00:00Z
-osmupdate: hourly changefile 9013: downloading
+osmupdate: hourly changefile 9043: 2013-09-24T02:00:00Z
+osmupdate: hourly changefile 9043: downloading
+osmupdate: hourly changefile 9042: 2013-09-24T01:00:00Z
+osmupdate: hourly changefile 9042: downloading
+osmupdate: hourly changefile 9041: 2013-09-24T00:00:00Z
+osmupdate: hourly changefile 9041: downloading
+osmupdate: hourly changefile 9040: 2013-09-23T23:00:00Z
+osmupdate: hourly changefile 9040: downloading
+osmupdate: hourly changefile 9039: 2013-09-23T22:00:00Z
+osmupdate: hourly changefile 9039: downloading
+osmupdate: hourly changefile 9038: 2013-09-23T21:00:00Z
+osmupdate: hourly changefile 9038: downloading
+osmupdate: hourly changefile 9037: 2013-09-23T20:00:00Z
+osmupdate: hourly changefile 9037: downloading
 osmupdate: Merging changefiles.
-osmupdate: hourly changefile 9012: 2013-09-22T19:00:00Z
-osmupdate: hourly changefile 9012: downloading
-osmupdate: hourly changefile 9011: 2013-09-22T18:00:00Z
-osmupdate: hourly changefile 9011: downloading
-osmupdate: hourly changefile 9010: 2013-09-22T17:00:00Z
-osmupdate: hourly changefile 9010: downloading
-osmupdate: hourly changefile 9009: 2013-09-22T16:00:00Z
-osmupdate: hourly changefile 9009: downloading
-osmupdate: hourly changefile 9008: 2013-09-22T15:00:00Z
-osmupdate: hourly changefile 9008: downloading
-osmupdate: hourly changefile 9007: 2013-09-22T14:00:00Z
-osmupdate: hourly changefile 9007: downloading
-osmupdate: hourly changefile 9006: 2013-09-22T13:00:00Z
-osmupdate: hourly changefile 9006: downloading
+osmupdate: hourly changefile 9036: 2013-09-23T19:00:00Z
+osmupdate: hourly changefile 9036: downloading
+osmupdate: hourly changefile 9035: 2013-09-23T18:00:00Z
+osmupdate: hourly changefile 9035: downloading
+osmupdate: hourly changefile 9034: 2013-09-23T17:00:00Z
+osmupdate: hourly changefile 9034: downloading
+osmupdate: hourly changefile 9033: 2013-09-23T16:00:00Z
+osmupdate: hourly changefile 9033: downloading
+osmupdate: hourly changefile 9032: 2013-09-23T15:00:00Z
+osmupdate: hourly changefile 9032: downloading
+osmupdate: hourly changefile 9031: 2013-09-23T14:00:00Z
+osmupdate: hourly changefile 9031: downloading
+osmupdate: hourly changefile 9030: 2013-09-23T13:00:00Z
+osmupdate: hourly changefile 9030: downloading
 osmupdate: Merging changefiles.
-osmupdate: hourly changefile 9005: 2013-09-22T12:00:00Z
-osmupdate: hourly changefile 9005: downloading
-osmupdate: hourly changefile 9004: 2013-09-22T11:00:00Z
-osmupdate: hourly changefile 9004: downloading
-osmupdate: hourly changefile 9003: 2013-09-22T10:00:00Z
-osmupdate: hourly changefile 9003: downloading
-osmupdate: hourly changefile 9002: 2013-09-22T09:00:00Z
+osmupdate: hourly changefile 9029: 2013-09-23T12:00:00Z
+osmupdate: hourly changefile 9029: downloading
+osmupdate: hourly changefile 9028: 2013-09-23T11:00:00Z
+osmupdate: hourly changefile 9028: downloading
+osmupdate: hourly changefile 9027: 2013-09-23T10:00:00Z
+osmupdate: hourly changefile 9027: downloading
+osmupdate: hourly changefile 9026: 2013-09-23T09:00:00Z
 osmupdate: Merging changefiles.
 osmupdate: Creating output file.
 osmupdate: Deleting temporary files.
 osmupdate: Completed successfully.
 
-real	12m54.687s
-user	11m39.876s
-sys	0m8.741s
+real	12m54.115s
+user	11m38.180s
+sys	0m8.329s
 Warning 6: Normalized/laundered field name: 'designation' to 'designatio'
 Warning 6: Normalized/laundered field name: 'addr_housenumber' to 'addr_house'
 Warning 6: Normalized/laundered field name: 'addr_street' to 'addr_stree'
