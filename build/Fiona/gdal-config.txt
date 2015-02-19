@@ -1,0 +1,2 @@
+-I/usr/include/gdal
+-L/usr/lib -lgdal

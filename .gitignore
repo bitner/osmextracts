@@ -3,4 +3,6 @@
 *.dbf
 *.prj
 *.pbf
+*.osrm*
 *~
+*.om5

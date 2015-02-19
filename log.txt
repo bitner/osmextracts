@@ -1,84 +1,78 @@
-Tue Sep 24 05:00:01 CDT 2013
+Wed Feb 26 05:00:01 CST 2014
 osmupdate Parameter: planet.us.osm.pbf
 osmupdate Parameter: planet-updated.us.osm.pbf
 osmupdate Parameter: -B=united_states.poly
-osmupdate: timestamp of planet.us.osm.pbf: 2013-09-23T09:00:00Z
-osmupdate: newest hourly timestamp: 2013-09-24T09:00:00Z
-osmupdate: newest daily timestamp: 2013-09-24T00:00:00Z
-osmupdate: hourly changefile 9050: downloading
-osmupdate: hourly changefile 9049: 2013-09-24T08:00:00Z
-osmupdate: hourly changefile 9049: downloading
-osmupdate: hourly changefile 9048: 2013-09-24T07:00:00Z
-osmupdate: hourly changefile 9048: downloading
-osmupdate: hourly changefile 9047: 2013-09-24T06:00:00Z
-osmupdate: hourly changefile 9047: downloading
-osmupdate: hourly changefile 9046: 2013-09-24T05:00:00Z
-osmupdate: hourly changefile 9046: downloading
-osmupdate: hourly changefile 9045: 2013-09-24T04:00:00Z
-osmupdate: hourly changefile 9045: downloading
-osmupdate: hourly changefile 9044: 2013-09-24T03:00:00Z
-osmupdate: hourly changefile 9044: downloading
+osmupdate: timestamp of planet.us.osm.pbf: 2014-02-25T10:00:00Z
+osmupdate: newest hourly timestamp: 2014-02-26T10:00:00Z
+osmupdate: newest daily timestamp: 2014-02-26T00:00:00Z
+osmupdate: hourly changefile 12771: downloading
+osmupdate: hourly changefile 12770: 2014-02-26T09:00:00Z
+osmupdate: hourly changefile 12770: downloading
+osmupdate: hourly changefile 12769: 2014-02-26T08:00:00Z
+osmupdate: hourly changefile 12769: downloading
+osmupdate: hourly changefile 12768: 2014-02-26T07:00:00Z
+osmupdate: hourly changefile 12768: downloading
+osmupdate: hourly changefile 12767: 2014-02-26T06:00:00Z
+osmupdate: hourly changefile 12767: downloading
+osmupdate: hourly changefile 12766: 2014-02-26T05:00:00Z
+osmupdate: hourly changefile 12766: downloading
+osmupdate: hourly changefile 12765: 2014-02-26T04:00:00Z
+osmupdate: hourly changefile 12765: downloading
 osmupdate: Merging changefiles.
-osmupdate: hourly changefile 9043: 2013-09-24T02:00:00Z
-osmupdate: hourly changefile 9043: downloading
-osmupdate: hourly changefile 9042: 2013-09-24T01:00:00Z
-osmupdate: hourly changefile 9042: downloading
-osmupdate: hourly changefile 9041: 2013-09-24T00:00:00Z
-osmupdate: hourly changefile 9041: downloading
-osmupdate: hourly changefile 9040: 2013-09-23T23:00:00Z
-osmupdate: hourly changefile 9040: downloading
-osmupdate: hourly changefile 9039: 2013-09-23T22:00:00Z
-osmupdate: hourly changefile 9039: downloading
-osmupdate: hourly changefile 9038: 2013-09-23T21:00:00Z
-osmupdate: hourly changefile 9038: downloading
-osmupdate: hourly changefile 9037: 2013-09-23T20:00:00Z
-osmupdate: hourly changefile 9037: downloading
+osmupdate: hourly changefile 12764: 2014-02-26T03:00:00Z
+osmupdate: hourly changefile 12764: downloading
+osmupdate: hourly changefile 12763: 2014-02-26T02:00:00Z
+osmupdate: hourly changefile 12763: downloading
+osmupdate: hourly changefile 12762: 2014-02-26T01:00:00Z
+osmupdate: hourly changefile 12762: downloading
+osmupdate: hourly changefile 12761: 2014-02-26T00:00:00Z
+osmupdate: hourly changefile 12761: downloading
+osmupdate: hourly changefile 12760: 2014-02-25T23:00:00Z
+osmupdate: hourly changefile 12760: downloading
+osmupdate: hourly changefile 12759: 2014-02-25T22:00:00Z
+osmupdate: hourly changefile 12759: downloading
+osmupdate: hourly changefile 12758: 2014-02-25T21:00:00Z
+osmupdate: hourly changefile 12758: downloading
 osmupdate: Merging changefiles.
-osmupdate: hourly changefile 9036: 2013-09-23T19:00:00Z
-osmupdate: hourly changefile 9036: downloading
-osmupdate: hourly changefile 9035: 2013-09-23T18:00:00Z
-osmupdate: hourly changefile 9035: downloading
-osmupdate: hourly changefile 9034: 2013-09-23T17:00:00Z
-osmupdate: hourly changefile 9034: downloading
-osmupdate: hourly changefile 9033: 2013-09-23T16:00:00Z
-osmupdate: hourly changefile 9033: downloading
-osmupdate: hourly changefile 9032: 2013-09-23T15:00:00Z
-osmupdate: hourly changefile 9032: downloading
-osmupdate: hourly changefile 9031: 2013-09-23T14:00:00Z
-osmupdate: hourly changefile 9031: downloading
-osmupdate: hourly changefile 9030: 2013-09-23T13:00:00Z
-osmupdate: hourly changefile 9030: downloading
+osmupdate: hourly changefile 12757: 2014-02-25T20:00:00Z
+osmupdate: hourly changefile 12757: downloading
+osmupdate: hourly changefile 12756: 2014-02-25T19:00:00Z
+osmupdate: hourly changefile 12756: downloading
+osmupdate: hourly changefile 12755: 2014-02-25T18:00:00Z
+osmupdate: hourly changefile 12755: downloading
+osmupdate: hourly changefile 12754: 2014-02-25T17:00:00Z
+osmupdate: hourly changefile 12754: downloading
+osmupdate: hourly changefile 12753: 2014-02-25T16:00:00Z
+osmupdate: hourly changefile 12753: downloading
+osmupdate: hourly changefile 12752: 2014-02-25T15:00:00Z
+osmupdate: hourly changefile 12752: downloading
+osmupdate: hourly changefile 12751: 2014-02-25T14:00:00Z
+osmupdate: hourly changefile 12751: downloading
 osmupdate: Merging changefiles.
-osmupdate: hourly changefile 9029: 2013-09-23T12:00:00Z
-osmupdate: hourly changefile 9029: downloading
-osmupdate: hourly changefile 9028: 2013-09-23T11:00:00Z
-osmupdate: hourly changefile 9028: downloading
-osmupdate: hourly changefile 9027: 2013-09-23T10:00:00Z
-osmupdate: hourly changefile 9027: downloading
-osmupdate: hourly changefile 9026: 2013-09-23T09:00:00Z
+osmupdate: hourly changefile 12750: 2014-02-25T13:00:00Z
+osmupdate: hourly changefile 12750: downloading
+osmupdate: hourly changefile 12749: 2014-02-25T12:00:00Z
+osmupdate: hourly changefile 12749: downloading
+osmupdate: hourly changefile 12748: 2014-02-25T11:00:00Z
+osmupdate: hourly changefile 12748: downloading
+osmupdate: hourly changefile 12747: 2014-02-25T10:00:00Z
 osmupdate: Merging changefiles.
 osmupdate: Creating output file.
 osmupdate: Deleting temporary files.
 osmupdate: Completed successfully.
 
-real	12m54.115s
-user	11m38.180s
-sys	0m8.329s
+real	13m58.826s
+user	12m4.053s
+sys	0m11.837s
 Warning 6: Normalized/laundered field name: 'designation' to 'designatio'
 Warning 6: Normalized/laundered field name: 'addr_housenumber' to 'addr_house'
 Warning 6: Normalized/laundered field name: 'addr_street' to 'addr_stree'
 Warning 6: Normalized/laundered field name: 'addr_postcode' to 'addr_postc'
 Warning 1: One or several characters couldn't be converted correctly from UTF-8 to ISO-8859-1.
 This warning will not be emitted anymore.
-ERROR 4: GeoJSON Driver doesn't support update.
-FAILURE:
-Unable to open existing output datasource `fire_stations.geojson'.
 Warning 6: Normalized/laundered field name: 'designation' to 'designatio'
 Warning 6: Normalized/laundered field name: 'addr_housenumber' to 'addr_house'
 Warning 6: Normalized/laundered field name: 'addr_street' to 'addr_stree'
 Warning 6: Normalized/laundered field name: 'addr_postcode' to 'addr_postc'
 Warning 1: One or several characters couldn't be converted correctly from UTF-8 to ISO-8859-1.
 This warning will not be emitted anymore.
-ERROR 4: GeoJSON Driver doesn't support update.
-FAILURE:
-Unable to open existing output datasource `hospitals.geojson'.
