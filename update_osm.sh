@@ -18,10 +18,14 @@ then
         #OSM_CONFIG_FILE=osmconf.ini ogr2ogr -f "GeoJSON" -s_srs "EPSG:3857" -t_srs "EPSG:4326" -overwrite -where 'amenity="fire_station"' fire_stations.geojson planet.us.osm.pbf points
         #OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where 'amenity="hospital"' hospitals.shp planet.us.osm.pbf points
         #OSM_CONFIG_FILE=osmconf.ini ogr2ogr -f "GeoJSON" -s_srs "EPSG:3857" -t_srs "EPSG:4326" -overwrite -where 'amenity="hospital"' hospitals.geojson planet.us.osm.pbf points
-	#git commit -a -m "Update Data"
-	#git push origin master
 	osmconvert planet.us.osm.pbf --drop-author -B=minnesota.poly --complete-ways -o=mn.pbf
 	osmconvert mn.pbf --drop-author -B=bwcaw_3k.poly --complete-ways -o=bwcaw_$d.pbf
+	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where 'portage="yes"' portages.geojson bwcaw_$d.pbf lines
+	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where 'tourism="camp_site"' campsites.geojson bwcaw_$d.pbf points
+	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where 'natural="water"' lakes.geojson bwcaw_$d.pbf multipolygons
+	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where 'tourism="camp_site"' streams.geojson bwcaw_$d.pbf lines
+        git commit -a -m "Update Data for $d"
+        git push origin master
     else
         echo "There was a problem with the processing"
     fi
