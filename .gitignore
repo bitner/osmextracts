@@ -6,3 +6,4 @@
 *.osrm*
 *~
 *.om5
+build/**
