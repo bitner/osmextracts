@@ -21,9 +21,13 @@ then
 	osmconvert planet.us.osm.pbf --drop-author -B=minnesota.poly --complete-ways -o=mn.pbf
 	osmconvert mn.pbf --drop-author -B=bwcaw_3k.poly --complete-ways -o=bwcaw_$d.pbf
 	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where 'portage="yes"' portages.geojson bwcaw_$d.pbf lines
+	ogr2ogr -overwrite portages.shp portages.geojson
 	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where 'tourism="camp_site"' campsites.geojson bwcaw_$d.pbf points
+	ogr2ogr -overwrite campsites.shp campsites.geojson
 	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where 'natural="water"' lakes.geojson bwcaw_$d.pbf multipolygons
+	ogr2ogr -overwrite lakes.shp lakes.geojson
 	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where 'tourism="camp_site"' streams.geojson bwcaw_$d.pbf lines
+	ogr2ogr -overwrite streams.shp streams.geojson
         git commit -a -m "Update Data for $d"
         git push origin master
     else
