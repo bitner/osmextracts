@@ -20,12 +20,12 @@ then
         #OSM_CONFIG_FILE=osmconf.ini ogr2ogr -f "GeoJSON" -s_srs "EPSG:3857" -t_srs "EPSG:4326" -overwrite -where 'amenity="hospital"' hospitals.geojson planet.us.osm.pbf points
 	osmconvert planet.us.osm.pbf --drop-author -B=minnesota.poly --complete-ways -o=mn.pbf
 	osmconvert planet.us.osm.pbf -B=bwcaw_3k.poly --complete-ways -o=bwcaw_$d.pbf
-	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where "other_tags ilike '%portage%'" portages.shp bwcaw_$d.pbf lines
-	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where "other_tags ilike '%camp%'" campsites.shp bwcaw_$d.pbf points
-	
+	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where 'portage="yes"' portages.shp bwcaw_$d.pbf lines
+	OSM_CONFIG_FILE=osmconf.ini ogr2ogr -t_srs "EPSG:4326" -overwrite -where 'tourism="camp_site"' campsites.shp bwcaw_$d.pbf points
+
 	rm *.geojson
 	for i in *.shp; do
-	 base=`basename $i`
+	 base=`basename $i .shp`
 	 ogr2ogr -f GeoJSON $base.geojson $i
         done
         git commit -a -m "Update Data for $d"
