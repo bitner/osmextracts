@@ -28,6 +28,7 @@ then
 	 base=`basename $i .shp`
 	 ogr2ogr -f GeoJSON $base.geojson $i
         done
+        git add .
         git commit -a -m "Update Data for $d"
         git push origin master
     else
