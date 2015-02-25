@@ -119,6 +119,9 @@
 { "type": "Feature", "properties": { "osm_id": "3369525489", "osm_timest": "2015\/02\/24", "osm_user": "DavidF", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -92.4060556, 48.2681811 ] } },
 { "type": "Feature", "properties": { "osm_id": "3369525490", "osm_timest": "2015\/02\/24", "osm_user": "DavidF", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -92.4010559, 48.2624318 ] } },
 { "type": "Feature", "properties": { "osm_id": "3369525491", "osm_timest": "2015\/02\/24", "osm_user": "DavidF", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -92.398566800000012, 48.2619176 ] } },
-{ "type": "Feature", "properties": { "osm_id": "3369531791", "osm_timest": "2015\/02\/24", "osm_user": "DavidF", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -92.428784599999986, 48.2488202 ] } }
+{ "type": "Feature", "properties": { "osm_id": "3369531791", "osm_timest": "2015\/02\/24", "osm_user": "DavidF", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -92.428784599999986, 48.2488202 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3370798069", "osm_timest": "2015\/02\/24", "osm_user": "bitner", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -90.8468125, 47.8674802 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3370798070", "osm_timest": "2015\/02\/24", "osm_user": "bitner", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -90.8159249, 47.867919 ] } },
+{ "type": "Feature", "properties": { "osm_id": "3370798071", "osm_timest": "2015\/02\/24", "osm_user": "bitner", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -90.8195587, 47.8520713 ] } }
 ]
 }
