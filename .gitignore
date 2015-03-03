@@ -1,0 +1,10 @@
+*.shp
+*.shx
+*.dbf
+*.prj
+*.pbf
+*.osrm*
+*~
+*.om5
+build/**
+*swp
