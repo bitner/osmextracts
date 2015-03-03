@@ -122,7 +122,6 @@
 { "type": "Feature", "properties": { "osm_id": "3369531791", "osm_timest": "2015\/02\/24", "osm_user": "DavidF", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -92.428784599999986, 48.2488202 ] } },
 { "type": "Feature", "properties": { "osm_id": "3370798069", "osm_timest": "2015\/02\/24", "osm_user": "bitner", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -90.8468125, 47.8674802 ] } },
 { "type": "Feature", "properties": { "osm_id": "3370798070", "osm_timest": "2015\/02\/24", "osm_user": "bitner", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -90.8159249, 47.867919 ] } },
-<<<<<<< HEAD
 { "type": "Feature", "properties": { "osm_id": "3370798071", "osm_timest": "2015\/02\/24", "osm_user": "bitner", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -90.8195587, 47.8520713 ] } },
 { "type": "Feature", "properties": { "osm_id": "3373462306", "osm_timest": "2015\/02\/26", "osm_user": "DavidF", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -90.6385248, 47.8603878 ] } },
 { "type": "Feature", "properties": { "osm_id": "3373462320", "osm_timest": "2015\/02\/26", "osm_user": "DavidF", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -90.63159730000001, 47.8711613 ] } },
@@ -140,8 +139,5 @@
 { "type": "Feature", "properties": { "osm_id": "3375594741", "osm_timest": "2015\/02\/27", "osm_user": "DavidF", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -91.049023099999985, 48.0098667 ] } },
 { "type": "Feature", "properties": { "osm_id": "3375594893", "osm_timest": "2015\/02\/27", "osm_user": "DavidF", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -91.0564267, 48.0065425 ] } },
 { "type": "Feature", "properties": { "osm_id": "3375594894", "osm_timest": "2015\/02\/27", "osm_user": "DavidF", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -91.0666551, 48.0042761 ] } }
-=======
-{ "type": "Feature", "properties": { "osm_id": "3370798071", "osm_timest": "2015\/02\/24", "osm_user": "bitner", "name": null, "amenity": "toilets", "tourism": "camp_site" }, "geometry": { "type": "Point", "coordinates": [ -90.8195587, 47.8520713 ] } }
->>>>>>> origin/master
 ]
 }
